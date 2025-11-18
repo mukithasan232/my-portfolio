@@ -1,4 +1,6 @@
 <template>
+    <UiRadiantTextRadiantText /><RadiantText />
+
     <div>
         <!-- <ContactIcons /> -->
 <br>
@@ -20,8 +22,8 @@
                             <p class="text-sm font-semibold text-blue-400 tracking-widest uppercase">Welcome</p>
                             <h1 class="text-5xl sm:text-6xl lg:text-7xl font-bold leading-tight text-balance">
                                 Hey, I'm <span
-                                    class="pointer-events-none whitespace-pre-wrap bg-linear-to-r from-blue-400 to-cyan-400/80 bg-clip-text text-center leading-none text-transparent">Arif
-                                    Foysal</span>
+                                    class="pointer-events-none whitespace-pre-wrap bg-linear-to-r from-blue-400 to-cyan-400/80 bg-clip-text text-center leading-none text-transparent">MD MUKIT
+                                    HASAN</span>
 
                             </h1>
                         </div>
@@ -115,7 +117,7 @@
 <script setup lang="ts">
 import { ref } from 'vue'
 import ParticlesBg from '~/components/ui/particles-bg/ParticlesBg.vue'
-import { RadiantText } from '~/components/ui/radiant-text'
+import RadiantText from '~/components/ui/radiant-text/RadiantText.vue'
 import { InteractiveHoverButton } from '~/components/ui/interactive-hover-button'
 import { Button } from "@/components/ui/button"
 import { Icon } from '@iconify/vue'
